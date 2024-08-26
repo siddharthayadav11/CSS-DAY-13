@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    height: 100px;
+    display: flex;
+    font-size: 1.5rem;
+    color: black;
+    justify-content: space-between;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+h2{
+    margin: 10px;
+    text-align: center;
+}
+p{
+    margin: 10px;
+    text-align: center;
+}
